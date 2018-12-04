@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_eVr6gPgUEeiS9b5v9VBqRw" name="SurveySystem">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_exaNMPgUEeiS9b5v9VBqRw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_eY3KUPgUEeiS9b5v9VBqRw" name="Interaction1"/>
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_eam2wPgUEeiS9b5v9VBqRw" name="StateMachine2">
+    <region xmi:type="uml:Region" xmi:id="_egA7MPgUEeiS9b5v9VBqRw" name="Region1"/>
+  </packagedElement>
+</uml:Model>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
+  <notation:Diagram xmi:id="_eaZbYPgUEeiS9b5v9VBqRw" type="PapyrusUMLSequenceDiagram" name="Sequence Diagram" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_eaZbYfgUEeiS9b5v9VBqRw" type="Interaction_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_eaZbYvgUEeiS9b5v9VBqRw" type="Interaction_NameLabel"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_eaZbY_gUEeiS9b5v9VBqRw" type="Interaction_SubfragmentCompartment">
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eaZbZPgUEeiS9b5v9VBqRw"/>
+      </children>
+      <element xmi:type="uml:Interaction" href="SurveySystem.uml#_eY3KUPgUEeiS9b5v9VBqRw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eaZbZfgUEeiS9b5v9VBqRw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_fXc5gPgUEeiS9b5v9VBqRw" type="GRILLING"/>
+    <children xmi:type="notation:Shape" xmi:id="_F8aNEPgVEeiS9b5v9VBqRw" type="Note" fontName="Ubuntu" description="Text" fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_F8aNEfgVEeiS9b5v9VBqRw" source="specificStyles">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_F8aNEvgVEeiS9b5v9VBqRw" key="verticalAlignment" value="8"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_F8a0IPgVEeiS9b5v9VBqRw" source="PapyrusCSSForceValue">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_F8bbMPgVEeiS9b5v9VBqRw" key="lineColor" value="true"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_F8bbMfgVEeiS9b5v9VBqRw" key="fontHeight" value="true"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_F8bbMvgVEeiS9b5v9VBqRw" key="bold" value="true"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_F8bbM_gVEeiS9b5v9VBqRw" key="italic" value="true"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_F8bbNPgVEeiS9b5v9VBqRw" key="fontColor" value="true"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_F8bbNfgVEeiS9b5v9VBqRw" key="fillColor" value="true"/>
+      </eAnnotations>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_F8yAgPgVEeiS9b5v9VBqRw" type="DiagramName">
+        <element xsi:nil="true"/>
+      </children>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_F8yAgfgVEeiS9b5v9VBqRw" type="Description">
+        <element xsi:nil="true"/>
+      </children>
+      <styles xmi:type="notation:TextStyle" xmi:id="_F8aNE_gVEeiS9b5v9VBqRw" textAlignment="Center"/>
+      <styles xmi:type="notation:LineTypeStyle" xmi:id="_F8aNFPgVEeiS9b5v9VBqRw"/>
+      <element xsi:nil="true"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_F8aNFfgVEeiS9b5v9VBqRw" x="128" y="63"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_HLTCEPgVEeiS9b5v9VBqRw" type="rectangle" fontName="Ubuntu" description="Text" fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_HLWscPgVEeiS9b5v9VBqRw" source="PapyrusCSSForceValue">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_HLWscfgVEeiS9b5v9VBqRw" key="lineColor" value="true"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_HLWscvgVEeiS9b5v9VBqRw" key="fontHeight" value="true"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_HLWsc_gVEeiS9b5v9VBqRw" key="bold" value="true"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_HLWsdPgVEeiS9b5v9VBqRw" key="italic" value="true"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_HLXTgPgVEeiS9b5v9VBqRw" key="fontColor" value="true"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_HLXTgfgVEeiS9b5v9VBqRw" key="fillColor" value="true"/>
+      </eAnnotations>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_HLX6kPgVEeiS9b5v9VBqRw" type="DiagramName">
+        <element xsi:nil="true"/>
+      </children>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_HLYhoPgVEeiS9b5v9VBqRw" type="Description">
+        <element xsi:nil="true"/>
+      </children>
+      <styles xmi:type="notation:TextStyle" xmi:id="_HLTCEfgVEeiS9b5v9VBqRw"/>
+      <styles xmi:type="notation:LineTypeStyle" xmi:id="_HLTCEvgVEeiS9b5v9VBqRw"/>
+      <element xsi:nil="true"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HLTCE_gVEeiS9b5v9VBqRw" x="333" y="157"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_OUDNcPgVEeiS9b5v9VBqRw" type="rectangle" fontName="Ubuntu" description="Text" fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_OUD0gPgVEeiS9b5v9VBqRw" source="PapyrusCSSForceValue">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_OUEbkPgVEeiS9b5v9VBqRw" key="lineColor" value="true"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_OUEbkfgVEeiS9b5v9VBqRw" key="fontHeight" value="true"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_OUEbkvgVEeiS9b5v9VBqRw" key="bold" value="true"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_OUEbk_gVEeiS9b5v9VBqRw" key="italic" value="true"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_OUEblPgVEeiS9b5v9VBqRw" key="fontColor" value="true"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_OUEblfgVEeiS9b5v9VBqRw" key="fillColor" value="true"/>
+      </eAnnotations>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_OUFCoPgVEeiS9b5v9VBqRw" type="DiagramName">
+        <element xsi:nil="true"/>
+      </children>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_OUFCofgVEeiS9b5v9VBqRw" type="Description">
+        <element xsi:nil="true"/>
+      </children>
+      <styles xmi:type="notation:TextStyle" xmi:id="_OUDNcfgVEeiS9b5v9VBqRw"/>
+      <styles xmi:type="notation:LineTypeStyle" xmi:id="_OUDNcvgVEeiS9b5v9VBqRw"/>
+      <element xsi:nil="true"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OUDNc_gVEeiS9b5v9VBqRw" x="541" y="188"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_QL5f4PgVEeiS9b5v9VBqRw" type="rectangle" fontName="Ubuntu" description="Text" fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_QL6G8PgVEeiS9b5v9VBqRw" source="PapyrusCSSForceValue">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_QL6G8fgVEeiS9b5v9VBqRw" key="lineColor" value="true"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_QL6G8vgVEeiS9b5v9VBqRw" key="fontHeight" value="true"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_QL6G8_gVEeiS9b5v9VBqRw" key="bold" value="true"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_QL6G9PgVEeiS9b5v9VBqRw" key="italic" value="true"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_QL6uAPgVEeiS9b5v9VBqRw" key="fontColor" value="true"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_QL6uAfgVEeiS9b5v9VBqRw" key="fillColor" value="true"/>
+      </eAnnotations>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_QL6uAvgVEeiS9b5v9VBqRw" type="DiagramName">
+        <element xsi:nil="true"/>
+      </children>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_QL7VEPgVEeiS9b5v9VBqRw" type="Description">
+        <element xsi:nil="true"/>
+      </children>
+      <styles xmi:type="notation:TextStyle" xmi:id="_QL5f4fgVEeiS9b5v9VBqRw"/>
+      <styles xmi:type="notation:LineTypeStyle" xmi:id="_QL5f4vgVEeiS9b5v9VBqRw"/>
+      <element xsi:nil="true"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QL5f4_gVEeiS9b5v9VBqRw" x="565" y="241"/>
+    </children>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_eaZbZvgUEeiS9b5v9VBqRw" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_eaZbZ_gUEeiS9b5v9VBqRw"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_eaZbaPgUEeiS9b5v9VBqRw" diagramKindId="org.eclipse.papyrus.uml.diagram.sequence">
+      <owner xmi:type="uml:Model" href="SurveySystem.uml#_eVr6gPgUEeiS9b5v9VBqRw"/>
+    </styles>
+    <element xmi:type="uml:Interaction" href="SurveySystem.uml#_eY3KUPgUEeiS9b5v9VBqRw"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_egI3APgUEeiS9b5v9VBqRw" type="PapyrusUMLStateMachineDiagram" name="State Machine Diagram" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_egI3AfgUEeiS9b5v9VBqRw" type="StateMachine_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_egI3AvgUEeiS9b5v9VBqRw" type="StateMachine_NameLabel">
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_egI3A_gUEeiS9b5v9VBqRw" width="700" height="20"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_egI3BPgUEeiS9b5v9VBqRw" type="StateMachine_RegionCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_egI3BfgUEeiS9b5v9VBqRw" type="Region_Shape">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_egI3BvgUEeiS9b5v9VBqRw" source="RegionAnnotationKey">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_egI3B_gUEeiS9b5v9VBqRw" key="RegionZoneKey" value=""/>
+          </eAnnotations>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_egI3CPgUEeiS9b5v9VBqRw" type="Region_SubvertexCompartment">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_egI3CfgUEeiS9b5v9VBqRw"/>
+          </children>
+          <element xmi:type="uml:Region" href="SurveySystem.uml#_egA7MPgUEeiS9b5v9VBqRw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_egI3CvgUEeiS9b5v9VBqRw" width="700" height="280"/>
+        </children>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_egI3C_gUEeiS9b5v9VBqRw" y="20" width="700" height="280"/>
+      </children>
+      <element xmi:type="uml:StateMachine" href="SurveySystem.uml#_eam2wPgUEeiS9b5v9VBqRw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_egI3DPgUEeiS9b5v9VBqRw" x="30" y="30" width="700" height="300"/>
+    </children>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_egI3DfgUEeiS9b5v9VBqRw" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_egI3DvgUEeiS9b5v9VBqRw"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_egI3D_gUEeiS9b5v9VBqRw" diagramKindId="org.eclipse.papyrus.uml.diagram.stateMachine">
+      <owner xmi:type="uml:Model" href="SurveySystem.uml#_eVr6gPgUEeiS9b5v9VBqRw"/>
+    </styles>
+    <element xmi:type="uml:StateMachine" href="SurveySystem.uml#_eam2wPgUEeiS9b5v9VBqRw"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_ehI8kPgUEeiS9b5v9VBqRw" type="PapyrusUMLClassDiagram" name="Class Diagram" measurementUnit="Pixel">
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_ehI8kfgUEeiS9b5v9VBqRw" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_ehI8kvgUEeiS9b5v9VBqRw"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_ehI8k_gUEeiS9b5v9VBqRw" diagramKindId="org.eclipse.papyrus.uml.diagram.class">
+      <owner xmi:type="uml:Model" href="SurveySystem.uml#_eVr6gPgUEeiS9b5v9VBqRw"/>
+    </styles>
+    <element xmi:type="uml:Model" href="SurveySystem.uml#_eVr6gPgUEeiS9b5v9VBqRw"/>
+  </notation:Diagram>
+</xmi:XMI>
