@@ -4,7 +4,26 @@
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
   <packagedElement xmi:type="uml:Interaction" xmi:id="_eY3KUPgUEeiS9b5v9VBqRw" name="Interaction1"/>
-  <packagedElement xmi:type="uml:StateMachine" xmi:id="_eam2wPgUEeiS9b5v9VBqRw" name="StateMachine2">
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_eam2wPgUEeiS9b5v9VBqRw" name="State Machine">
     <region xmi:type="uml:Region" xmi:id="_egA7MPgUEeiS9b5v9VBqRw" name="Region1"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_1GF6wPgVEeiS9b5v9VBqRw" name="Survey"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_2NGUMPgXEeiqvtBVukH9lQ" name="Account"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_4asNIPgXEeiqvtBVukH9lQ" name="Page"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_5TNwkPgXEeiqvtBVukH9lQ" name="Item"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_7rJRQPgXEeiqvtBVukH9lQ"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_9D_TgPgXEeiqvtBVukH9lQ"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Hd67wPgYEeiqvtBVukH9lQ" name="MultipleChoice">
+    <generalization xmi:type="uml:Generalization" xmi:id="_bkJDIPgYEeiqvtBVukH9lQ" general="_5TNwkPgXEeiqvtBVukH9lQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_KhEjsPgYEeiqvtBVukH9lQ" name="Text"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_NN4vQPgYEeiqvtBVukH9lQ" name="TextInput">
+    <generalization xmi:type="uml:Generalization" xmi:id="_ZkF28PgYEeiqvtBVukH9lQ" general="_5TNwkPgXEeiqvtBVukH9lQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Oe8ugPgYEeiqvtBVukH9lQ" name="IntegerInput">
+    <generalization xmi:type="uml:Generalization" xmi:id="_WhvgQPgYEeiqvtBVukH9lQ" general="_5TNwkPgXEeiqvtBVukH9lQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_QOOTwPgYEeiqvtBVukH9lQ" name="BooleanInput">
+    <generalization xmi:type="uml:Generalization" xmi:id="_adcg0PgYEeiqvtBVukH9lQ" general="_5TNwkPgXEeiqvtBVukH9lQ"/>
   </packagedElement>
 </uml:Model>
