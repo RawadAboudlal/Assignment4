@@ -1,29 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_eVr6gPgUEeiS9b5v9VBqRw" name="SurveySystem">
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_eVr6gPgUEeiS9b5v9VBqRw" name="SurveySystem">
   <packageImport xmi:type="uml:PackageImport" xmi:id="_exaNMPgUEeiS9b5v9VBqRw">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
-  <packagedElement xmi:type="uml:Interaction" xmi:id="_eY3KUPgUEeiS9b5v9VBqRw" name="Interaction1"/>
   <packagedElement xmi:type="uml:StateMachine" xmi:id="_eam2wPgUEeiS9b5v9VBqRw" name="State Machine">
     <region xmi:type="uml:Region" xmi:id="_egA7MPgUEeiS9b5v9VBqRw" name="Region1"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_1GF6wPgVEeiS9b5v9VBqRw" name="Survey"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_1GF6wPgVEeiS9b5v9VBqRw" name="Survey">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_UAtHoPisEeiUYMmibUmZwQ" type="_PozvwPirEeiUYMmibUmZwQ" aggregation="composite" association="_UAivkPisEeiUYMmibUmZwQ"/>
+  </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_2NGUMPgXEeiqvtBVukH9lQ" name="Account"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_4asNIPgXEeiqvtBVukH9lQ" name="Page"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_5TNwkPgXEeiqvtBVukH9lQ" name="Item"/>
-  <packagedElement xmi:type="uml:Association" xmi:id="_7rJRQPgXEeiqvtBVukH9lQ"/>
-  <packagedElement xmi:type="uml:Association" xmi:id="_9D_TgPgXEeiqvtBVukH9lQ"/>
-  <packagedElement xmi:type="uml:Class" xmi:id="_Hd67wPgYEeiqvtBVukH9lQ" name="MultipleChoice">
+  <packagedElement xmi:type="uml:Class" xmi:id="_Hd67wPgYEeiqvtBVukH9lQ" name="MultipleChoice" visibility="private">
     <generalization xmi:type="uml:Generalization" xmi:id="_bkJDIPgYEeiqvtBVukH9lQ" general="_5TNwkPgXEeiqvtBVukH9lQ"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_FcaG0PijEeiJwuvqhZzn8Q" name="options" type="_KhEjsPgYEeiqvtBVukH9lQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9pOXAPilEeiUYMmibUmZwQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9pljYPilEeiUYMmibUmZwQ" value="*"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_6PSNcPiqEeiUYMmibUmZwQ" name="test"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_KhEjsPgYEeiqvtBVukH9lQ" name="Text"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_KhEjsPgYEeiqvtBVukH9lQ" name="TextItem"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_NN4vQPgYEeiqvtBVukH9lQ" name="TextInput">
-    <generalization xmi:type="uml:Generalization" xmi:id="_ZkF28PgYEeiqvtBVukH9lQ" general="_5TNwkPgXEeiqvtBVukH9lQ"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Ue_N0PimEeiUYMmibUmZwQ" name="maxLines">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EInt"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_aVRrwPimEeiUYMmibUmZwQ" name="maxCharacters">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EInt"/>
+    </ownedAttribute>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_Oe8ugPgYEeiqvtBVukH9lQ" name="IntegerInput">
-    <generalization xmi:type="uml:Generalization" xmi:id="_WhvgQPgYEeiqvtBVukH9lQ" general="_5TNwkPgXEeiqvtBVukH9lQ"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Oe8ugPgYEeiqvtBVukH9lQ" name="IntegerInput"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_QOOTwPgYEeiqvtBVukH9lQ" name="BooleanInput"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_o7VZYPiqEeiUYMmibUmZwQ" name="InputItem"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_PozvwPirEeiUYMmibUmZwQ" name="SurveyMaker"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_SvWC4PirEeiUYMmibUmZwQ" name="SurveyTaker"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_UAivkPisEeiUYMmibUmZwQ" visibility="package" memberEnd="_UAtHoPisEeiUYMmibUmZwQ _UAuVwPisEeiUYMmibUmZwQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_UAr5gPisEeiUYMmibUmZwQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_UAr5gfisEeiUYMmibUmZwQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_UAuVwPisEeiUYMmibUmZwQ" type="_1GF6wPgVEeiS9b5v9VBqRw" association="_UAivkPisEeiUYMmibUmZwQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_h4EgEPisEeiUYMmibUmZwQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_h4q9APisEeiUYMmibUmZwQ" value="*"/>
+    </ownedEnd>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_QOOTwPgYEeiqvtBVukH9lQ" name="BooleanInput">
-    <generalization xmi:type="uml:Generalization" xmi:id="_adcg0PgYEeiqvtBVukH9lQ" general="_5TNwkPgXEeiqvtBVukH9lQ"/>
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_7YgJYPjYEeiARuay9lOb7Q" name="SurveyState">
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_AMVr0PjZEeiARuay9lOb7Q" name="BEING_DESIGNED"/>
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_Bl5fwPjZEeiARuay9lOb7Q" name="BEING_TESTED"/>
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_DJsNwPjZEeiARuay9lOb7Q" name="GATHERING_DATA"/>
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_EH3tQPjZEeiARuay9lOb7Q" name="CLOSED"/>
   </packagedElement>
 </uml:Model>
